@@ -59,7 +59,7 @@ O projeto está na **Fase 02** do Projeto Integrador (2º período), dedicada a 
 ## 🔗 Links
 
 - 🎨 [Protótipo no Figma](https://www.figma.com/make/q6SKmiincn4dU1GHvKCSKy/PrintFlow-WireframePrototype)
-- 📋 Formulário de pesquisa: (https://forms.gle/FxAyRrbNz3kQPpKu9)
+- 📋 [Formulário de pesquisa:] (https://forms.gle/FxAyRrbNz3kQPpKu9)
 - 🗂️ Quadro de tarefas: aba **Projects** deste repositório
 
 ---
