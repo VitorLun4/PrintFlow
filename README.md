@@ -40,7 +40,7 @@ Sistemas como SimplyPrint e 3DprinterOS controlam **frotas de impressoras** em a
 - Consulta de estoque de filamentos
 - Dashboard (lucro, desperdício e pedidos atrasados)
 
----
+----
 
 ## 🚦 Status atual
 
