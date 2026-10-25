@@ -3,7 +3,7 @@
 > Gestão simples para quem vende peças de impressão 3D: estoque de filamento, custo de cada pedido e preço de venda sugerido.
 
 ![Status](https://img.shields.io/badge/status-em%20planejamento-yellow)
-![Fase](https://img.shields.io/badge/PI-2%C2%BA%20per%C3%ADodo%20%C2%B7%20Fase%2002-blue)
+![Fase](https://img.shields.io/badge/PI-2%C2%BA%20per%C3%ADodo%20%C2%B7%20Fase%2003-blue)
 
 ---
 
