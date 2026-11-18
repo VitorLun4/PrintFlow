@@ -1,4 +1,6 @@
-# PrintFlow
+# Layerly
+
+> Nome anterior do projeto: PrintFlow (documentos entregues até a Fase 02). O nome oficial passou a ser **Layerly** em 17/11/2026.
 
 > Gestão simples para quem vende peças de impressão 3D: estoque de filamento, custo de cada pedido e preço de venda sugerido.
 
@@ -11,7 +13,7 @@
 
 Quem vende chaveiros, bonecos e outras peças impressas em 3D trabalhando por conta própria costuma anotar tudo no caderno, perde a noção de quanto filamento sobrou e não tem certeza se o preço cobrado cobriu o custo.
 
-O **PrintFlow** é um site que resolve isso. O dono do negócio:
+O **Layerly** é um site que resolve isso. O dono do negócio:
 
 1. **cadastra o que tem**: filamentos (cada rolo comprado, com o seu preço), embalagens e impressoras;
 2. **registra cada pedido**;
@@ -21,7 +23,7 @@ O **PrintFlow** é um site que resolve isso. O dono do negócio:
 
 ### Diferencial
 
-Sistemas como SimplyPrint e 3DprinterOS controlam **frotas de impressoras** em ambientes de produção. O PrintFlow foca na **gestão do pequeno negócio**: estoque por cor e por lote, custo, embalagem e preço.
+Sistemas como SimplyPrint e 3DprinterOS controlam **frotas de impressoras** em ambientes de produção. O Layerly foca na **gestão do pequeno negócio**: estoque por cor e por lote, custo, embalagem e preço.
 
 ---
 
@@ -39,6 +41,11 @@ Sistemas como SimplyPrint e 3DprinterOS controlam **frotas de impressoras** em a
 - Registro do gasto real
 - Consulta de estoque de filamentos
 - Dashboard (lucro, desperdício e pedidos atrasados)
+- Preço sugerido por canal de venda (Mercado Livre, Shopee, TikTok Shop), com taxas e impostos
+- Margem de lucro escolhida pelo usuário, sobre o custo ou sobre o preço
+- Pedidos em quadro, calendário e lista, com prazo e atraso automático
+- Registro de falhas (o material perdido entra no custo e sai do estoque)
+- Financeiro: receita, gastos, lucro, a receber e ponto de equilíbrio
 
 ----
 
@@ -48,7 +55,8 @@ O projeto está na **Fase 02** do Projeto Integrador (2º período), dedicada a 
 
 | Etapa | Situação |
 |---|---|
-| Protótipo (wireframe) | ✅ Disponível no Figma |
+| Protótipo (telas) | ✅ Disponível no Figma (38 telas) |
+| Protótipo navegável (HTML) | ✅ Pasta `prototipo/` (abra o `index.html`) |
 | Pesquisa com usuários | ✅ Concluída e disponivel|
 | Diagramas (caso de uso e fluxo do pedido) |  ✅ Concluída e disponivel |
 | Organização do projeto (quadro de tarefas) | ✅ Criada na aba Projects |
@@ -58,7 +66,7 @@ O projeto está na **Fase 02** do Projeto Integrador (2º período), dedicada a 
 
 ## 🔗 Links
 
-- 🎨 [Protótipo no Figma](https://www.figma.com/make/q6SKmiincn4dU1GHvKCSKy/PrintFlow-WireframePrototype)
+- 🎨 [Protótipo no Figma](https://www.figma.com/design/0C3vRsebXvVaKMLgSCDLIQ)
 - 📋 [Formulário de pesquisa](https://forms.gle/FxAyRrbNz3kQPpKu9)
 - 🗂️ Quadro de tarefas: aba **Projects** deste repositório
 
@@ -66,16 +74,18 @@ O projeto está na **Fase 02** do Projeto Integrador (2º período), dedicada a 
 
 ## 🛠️ Tecnologias
 
-A tecnologia final **ainda não foi decidida**. A ideia atual do grupo é usar **Python** no backend (com Django como possibilidade) e HTML/CSS no front-end.
+Previstas: **Python com Django** no back-end, **HTML, CSS e JavaScript** no front-end. Banco: SQLite em desenvolvimento e PostgreSQL em produção.
 
 ---
 
 ## 📁 Estrutura do repositório
 
 ```
-PrintFlow/
+Layerly/
 ├── README.md        # esta página
-├── docs/            # documento do projeto e material de apoio
+├── CONTRIBUTING.md  # como trabalhar em grupo (branches, commits, PRs)
+├── docs/            # documento do projeto, requisitos e material de design
+├── prototipo/       # protótipo navegável em HTML/CSS/JS
 ├── diagramas/       # caso de uso e fluxo do pedido
 ├── pesquisa/        # formulário e resultados da pesquisa com usuários
 └── src/             # código-fonte (entra quando começarmos a programar)
