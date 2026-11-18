@@ -1,6 +1,6 @@
-# Layerly (antes PrintFlow)
+# Layerly
 
-> O projeto se chamava **PrintFlow** nos documentos entregues até agora. O nome passou a ser **Layerly** em 17/11/2026.
+> Nome anterior do projeto: PrintFlow (documentos entregues até a Fase 02). O nome oficial passou a ser **Layerly** em 17/11/2026.
 
 > Gestão simples para quem vende peças de impressão 3D: estoque de filamento, custo de cada pedido e preço de venda sugerido.
 
@@ -66,8 +66,7 @@ O projeto está na **Fase 02** do Projeto Integrador (2º período), dedicada a 
 
 ## 🔗 Links
 
-- 🎨 [Protótipo no Figma (Layerly)](https://www.figma.com/design/0C3vRsebXvVaKMLgSCDLIQ)
-- 🎨 [Protótipo anterior (PrintFlow)](https://www.figma.com/make/q6SKmiincn4dU1GHvKCSKy/PrintFlow-WireframePrototype)
+- 🎨 [Protótipo no Figma](https://www.figma.com/design/0C3vRsebXvVaKMLgSCDLIQ)
 - 📋 [Formulário de pesquisa](https://forms.gle/FxAyRrbNz3kQPpKu9)
 - 🗂️ Quadro de tarefas: aba **Projects** deste repositório
 
